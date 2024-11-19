@@ -49,3 +49,20 @@ To compare two images, simply call the pixelatorv2.py script with the paths to t
 ```bash
 python pixelatorv2.py /path/to/image1.jpg /path/to/image2.jpg
 ```
+
+## Cite This Work
+
+Pixelator v2 is freely available to the community. If you use our code in your research or work, please cite it as follows:
+
+> **Dey, Somdip, Jabir Alshehabi Al-Ani, Aikaterini Bourazeri, Suman Saha, Rohit Purkait, Samuel Hill, and Julian Thompson. 2024.**  
+> *"Pixelator v2: A Novel Perceptual Image Comparison Method with LAB Colour Space and Sobel Edge Detection for Enhanced Security Analysis"*  
+> **Electronics** 13, no. 22: 4541.  
+> [https://doi.org/10.3390/electronics13224541](https://doi.org/10.3390/electronics13224541)
+
+Or in Bib Tex format as follow:
+
+@article{
+dey2024pixelator, author = {Somdip Dey and Jabir Alshehabi Al-Ani and Aikaterini Bourazeri and Suman Saha and Rohit Purkait and Samuel Hill and Julian Thompson}, title = {Pixelator v2: A Novel Perceptual Image Comparison Method with LAB Colour Space and Sobel Edge Detection for Enhanced Security Analysis}, journal = {Electronics}, volume = {13}, number = {22}, pages = {4541}, year = {2024}, doi = {10.3390/electronics13224541}, url = {https://doi.org/10.3390/electronics13224541} 
+}
+
+For more information, visit the official publication: [Pixelator v2 Article in Electronics journal](https://www.mdpi.com/2079-9292/13/22/4541).
