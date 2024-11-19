@@ -50,6 +50,12 @@ To compare two images, simply call the pixelatorv2.py script with the paths to t
 python pixelatorv2.py /path/to/image1.jpg /path/to/image2.jpg
 ```
 
+## Output
+
+We modified the Green channel of RGB of the Lenna image incrementally by altering by just 1 pixel value, a subtle change that is imperceptible to the human eye. The following image shows the output of Pixelator v2 (d) using the reference Lena image (a) and the distroted Lena image (b) while also comparing output with SSIM map (c).
+
+![Highlighting differences between distorted Lenna and reference Lenna images using SSIM and Pixelator v2. (a) Is the unaltered original Lenna image; (b) is the altered Lenna image where the Green channel was incrementally altered by just 1 pixel value; (c) SSIM Map showing the differences between the original and the altered image; (d) Pixelator View v2 showing the differences between the original and the altered image.](https://github.com/somdipdey/Pixelator-View-v2/blob/main/figures/Pixelator-v2-Comparison.png?raw=true)
+
 ## Cite This Work
 
 Pixelator v2 is freely available to the community. If you use our code in your research or work, please cite it as follows:
